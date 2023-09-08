@@ -167,9 +167,8 @@ button {
 }
 
 .adv-title-section{
-    width: calc ((100% - 72px) / 4);
+    width: width calc ((100% - 3 * 24px) / 4);
 }
-
 .advantages-title{
     font-weight: 500;
     font-size: 20px;
