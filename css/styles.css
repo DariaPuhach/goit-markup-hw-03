@@ -204,7 +204,9 @@ button {
 }
 
 .team{
-    background-color: var(--c-background-light)
+    background-color: var(--c-background-light);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-people{
@@ -213,13 +215,20 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
+    text-align: center;
+    margin-bottom: 8px;
 }
 .team-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
+.team-name{
+    padding: 32px 0;
+
+}
 .portfolio{
     font-size: 36px;
     line-height: 1.11;
