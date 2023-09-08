@@ -162,7 +162,7 @@ button {
     gap: 24px;
 }
 .adv-title-section{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .advantages-title{
     font-weight: 500;
@@ -170,6 +170,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--c-primary);
+    margin-bottom: 8px;
 }
 
 .advantages-text{
