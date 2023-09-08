@@ -179,9 +179,11 @@ button {
     letter-spacing: 0.02em;
     color:#434455 ;
 }
+/*team-section*/
 
 .team-section{
     background-color: var(--c-primary-light);
+    padding: 120px 0;
 }
 .team-title-main{
     font-size: 36px;
@@ -190,8 +192,11 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--c-primary);
+    margin-bottom: 72px;
 }
-
+.team-list{
+    display: flex;
+}
 .team{
     background-color: var(--c-background-light)
 }
