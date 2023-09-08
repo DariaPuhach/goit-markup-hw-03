@@ -187,6 +187,7 @@ button {
     background-color: var(--c-primary-light);
     padding: 120px 0;
 }
+
 .team-title-main{
     font-size: 36px;
     line-height: 1.11;
@@ -196,10 +197,12 @@ button {
     color: var(--c-primary);
     margin-bottom: 72px;
 }
+
 .team-list{
     display: flex;
     gap: 24px;
 }
+
 .team{
     background-color: var(--c-background-light)
 }
