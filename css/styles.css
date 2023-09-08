@@ -250,11 +250,16 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*footer*/
 
 .footer{
-    background-color:var(--c-primary)
+    background-color:var(--c-primary);
+    padding: 100px 0;
 }
-
+.footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .accent-footer{
     color: var(--c-primary-light);
 }
