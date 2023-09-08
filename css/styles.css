@@ -113,9 +113,8 @@ button {
 }
 /*hero section*/
 
-.hero{
-    
-    padding: 188px 0 188px;
+.hero{ 
+    padding: 188px 0;
 }
 .hero-inner{
     background-color:var(--c-primary);
