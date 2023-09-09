@@ -94,6 +94,12 @@ button {
 .navigation-list{
     display: flex;
     gap: 40px;
+    align-items: center;
+}
+
+.navigation-link{
+    display: flex;
+    gap: 40px;
 }
 
 .navigation{
@@ -108,6 +114,10 @@ button {
     color: #404bbf;
 }
 
+.navigation-adress{
+    display: flex;
+    gap: 40px;
+}
 .contact{
     font-style: normal;
     display: flex;
