@@ -65,10 +65,6 @@ button {
 
 }
 
-.header-con{
-    display: flex;
-
-}
 
 .header{
     border-bottom: 1px solid #e7e9fc
@@ -77,6 +73,7 @@ button {
 .header-inner{
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 
 .logo{
