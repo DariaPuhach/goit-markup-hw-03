@@ -314,5 +314,6 @@ button {
 .footer-text{
     line-height: 1.5;
     color: var(--c-primary-light);
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    max-width: 264px;
 }
